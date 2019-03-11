@@ -6,9 +6,9 @@ spring:
 server:
   port: 8003
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml
+  config-location: classpath:mybatis.cfg.xml
   type-aliases-package: com.jingshuo.uc.config.entities
-  mapper-locations: classpath:mybatis/mapper/**/*.xml
+  mapper-locations: classpath:mapper/**/*.xml
 spring:
   profiles: dev
   application:
@@ -39,9 +39,9 @@ eureka:
 server:
   port: 8003
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml
+  config-location: classpath:mybatis.cfg.xml
   type-aliases-package: com.jingshuo.uc.config.entities
-  mapper-locations: classpath:mybatis/mapper/**/*.xml
+  mapper-locations: classpath:mapper/**/*.xml
 spring:
   profiles: prod
   application:
