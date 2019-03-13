@@ -12,7 +12,7 @@ mybatis:
 spring:
   profiles: dev
   application:
-    name: jingshuo-uc-config
+    name: jingshuo-uc-config11111
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
